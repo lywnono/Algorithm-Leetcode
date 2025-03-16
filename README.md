@@ -1,1 +1,1 @@
-# Algorithm-Letcode
+# Algorithm-Leetcode
