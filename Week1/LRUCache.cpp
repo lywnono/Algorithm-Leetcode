@@ -36,7 +36,8 @@ public:
             dataRecord[key] = value;
             removeKey(key);
             insertKey(key);
-        } else {
+        }
+        else {
             if (dataRecord.size() == size) {
                 envict();
             }
