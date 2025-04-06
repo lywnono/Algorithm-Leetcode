@@ -10,9 +10,6 @@ class Solution:
         elif n < 0:
             return  self.myPow( 1/x, -n)
         
-        
-        # Recurrence of fast power
-        
         if n & 1:
             return x * self.myPow( x*x, n // 2)
         else:
